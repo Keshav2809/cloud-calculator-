@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Storage Calculator | CloudCompare</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<nav class="navbar"><a class="logo" href="index.html">☁ Cloud<span>Compare</span></a><div class="navlinks"><a href="index.html">Home</a><a href="compare.html">Compare</a><a class="active" href="calculator.html">Calculator</a><a href="features.html">Features</a><a href="about.html">About</a></div><button id="themeBtn" class="icon-btn">🌙</button></nav>
+<main class="page">
+<div class="page-head"><span class="badge">INTERACTIVE TOOL</span><h1>Storage calculator</h1><p>Enter your storage requirement and compare it with the current free allocations used in this project.</p></div>
+<div class="calculator">
+<label for="storageInput">How much storage do you need?</label>
+<div class="input-row"><input id="storageInput" type="number" min="0" step="0.1" value="10"><select id="unit"><option value="GB">GB</option><option value="TB">TB</option></select><button id="calcBtn" class="btn primary">Calculate</button></div>
+<div id="calcResults" class="result-grid"></div>
+</div>
+</main>
+<footer>CloudCompare • Academic Project • Keshav Singh • BCA 3rd Year</footer>
+<script src="js/script.js"></script><script src="js/calculator.js"></script>
+</body></html>
